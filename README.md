@@ -17,11 +17,10 @@
 - 🏡 Real Estate Market: Fascinated by trends and data analysis in the ever-changing real estate landscape.
 - 🌍 Public Health: Committed to using data-driven approaches to address public health challenges.
 
-<div align="center">
-  <h1>Julia's GitHub Stats</h1>
+<center>
   ![jnliou's Streak](https://github-readme-streak-stats.herokuapp.com/?user=jnliou&theme=cobalt&hide_border=false)
 ![jnliou's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jnliou&theme=cobalt&show_icons=true&hide_border=false&layout=compact)
-</div>
+</center>
 
 Let's connect and collaborate on exciting data analytics projects! Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/julia-liou/), and don't forget to follow me on [GitHub](https://github.com/jnliou). 😄
 
