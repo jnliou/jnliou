@@ -11,5 +11,9 @@
 - 🛠️ Tools: Excel, Pandas, Jupyter Notebook, Matplotlib, TensorFlow
 - 🧠 Soft Skills: Communication, Collaboration, Problem-Solving, Leadership
 
-Let's connect and collaborate on exciting healthcare data analytics projects! Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/julia-liou/), and don't forget to follow me on [GitHub](https://github.com/jnliou). 😄
+## Interests
+- 🏡 Real Estate Market: Fascinated by trends and data analysis in the ever-changing real estate landscape.
+- 🌍 Public Health: Committed to using data-driven approaches to address public health challenges.
+
+Let's connect and collaborate on exciting data analytics projects! Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/julia-liou/), and don't forget to follow me on [GitHub](https://github.com/jnliou). 😄
 
