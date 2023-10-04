@@ -2,7 +2,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/julia-liou/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-green)](https://github.com/jnliou)
-[![Resume](https://img.shields.io/badge/Resume-View-purple)](https://github.com/jnliou/jnliou/blob/main/CV/Julia%20Liou%C2%A0%20-%20Resume.pdf)
+[![Resume](https://img.shields.io/badge/Resume-View-purple)](https://drive.google.com/file/d/1HkNhbBWub1dK5_LUTdc-9wnEdVE67_3y/view)
 [![GitHub Followers](https://img.shields.io/github/followers/jnliou?style=social)](https://github.com/jnliou)
 
 🚀 Welcome to my GitHub profile! I'm a passionate Data Analyst with a background in Nursing and Biology. My interest lies in leveraging data to make a positive difference in the world.
