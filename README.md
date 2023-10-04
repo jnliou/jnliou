@@ -3,6 +3,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/julia-liou/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-green)](https://github.com/jnliou)
 [![Resume](https://img.shields.io/badge/Resume-View-purple)](https://drive.google.com/file/d/1HkNhbBWub1dK5_LUTdc-9wnEdVE67_3y/view)
+[![My Portfolio](https://img.shields.io/badge/MyPortfolio-View-pink)](https://jnliou.github.io/jnliou/index.html)
 [![GitHub Followers](https://img.shields.io/github/followers/jnliou?style=social)](https://github.com/jnliou)
 
 🚀 Welcome to my GitHub profile! I'm a passionate Data Analyst with a background in Nursing and Biology. My interest lies in leveraging data to make a positive difference in the world.
@@ -21,5 +22,5 @@
   ![jnliou's Streak](https://github-readme-streak-stats.herokuapp.com/?user=jnliou&theme=cobalt&hide_border=false)
 ![jnliou's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jnliou&theme=cobalt&show_icons=true&hide_border=false&layout=compact)
 
-Let's connect and collaborate on exciting data analytics projects! Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/julia-liou/), and don't forget to follow me on [GitHub](https://github.com/jnliou). 😄
+Let's connect and collaborate on exciting data analytics projects! Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/julia-liou/), view [My Portfolio](https://jnliou.github.io/jnliou/index.html) and don't forget to follow me on [GitHub](https://github.com/jnliou). 😄
 
