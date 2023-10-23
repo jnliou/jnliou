@@ -60,6 +60,78 @@ https://templatemo.com/tm-531-reflux
     .contact-me .section-heading h2 {
     text-align: center;
   }
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+  transition: transform 0.2s; 
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #a43f49;
+  width: 250px;
+  height: 600px;
+}
+
+.column:hover {
+  transform: scale(1.05); /* Scale the column to 105% on hover */
+}
+
+/* Change background color when hovering over */
+.card:hover {background-color: #A72004;}
+/* Add margin or padding to the bottom of the "Download Resume" section */
+.white-button {
+  margin-top: 20px; /* You can adjust this value to control the gap */
+}
+
+/* Additional styles for the "Download Resume" button */
+.white-button a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  background-color: #a43f49;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.white-button a:hover {
+  background-color: #A72004;
+}
     </style>
   </head>
 
@@ -219,47 +291,49 @@ https://templatemo.com/tm-531-reflux
 <section id="work-experience">
   <h2>Work Experience</h2>
   <div class="timeline">
-    <div class="event">
-      <div class="event-content">
-        <strong>North York General Hospital</strong>, Toronto, ON
-        <p>Registered Nurse (November 2022 - Present)</p>
-        <ul>
-          <li>Provided patient-centered care and collaborated with interdisciplinary teams.</li>
-          <li>Conducted assessments and created care plans using Cerner - CST.</li>
-        </ul>
-      </div>
-    </div>
 
-    <div class="event">
-      <div class="event-content">
-        <strong>BC Women’s Hospital</strong>, Vancouver, BC
-        <p>Registered Nurse (September 2020 - September 2022)</p>
-        <ul>
-          <li>Provided comprehensive assessments to Postpartum mothers and their newborns.</li>
-          <li>Planned, coordinated, and evaluated the care provided to Postpartum mothers and newborns in collaboration with the family, their health care provider, and the interdisciplinary team.</li>
-          <li>Conducted assessments and created care plans using Cerner - CST.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="event">
-      <div class="event-content">
-        <strong>BC Children's Hospital Research Institute - Vaccine Evaluation Center</strong>, Vancouver, BC
-        <p>Public Health Research Assistant (January 2015 - September 2019)</p>
-        <ul>
-          <li>Ability to follow detailed protocol and abide by research ethics when enrolling eligible participants onto research studies.</li>
-          <li>Screened people to determine whether they are eligible for research studies based on their current health status.</li>
-          <li>Assisted with data collection and entry on study-related materials.</li>
-        </ul>
-      </div>
+  <div class="column">
+    <div class="card">
+      <h6>North York General Hospital</h6>
+      <p><i>Registered Nurse (November 2022 - Present)</i></p>
+      <p><ul>
+        <li>●	Delivered patient-centric care, fostering strong therapeutic connections with patients.</li>
+        <li>● Collaborated with interdisciplinary teams to ensure patients' objectives were achieved.</li>
+        <li>●Planned, coordinated, and evaluated the care provided to Postpartum mothers and newborns in collaboration with the family, their health care provider, and the interdisciplinary team.</li>
+        <li>● Conducted assessments and created care plans using Cerner - CST.</li>
+      </ul></p>
     </div>
   </div>
+  
+
+  <div class="column">
+    <div class="card">
+      <h6>BC Women’s Hospital</h6>
+      <p><i>Registered Nurse (September 2020 - September 2022)</i></p>
+      <p> <ul>
+        <li>● Provided vital support to new mothers and infants during the postpartum period.</li>
+        <li>● Conducted comprehensive assessments, maintained precise patient records, and crafted individualized care plans.</li>
+        <li>● Actively engaged in staff training and mentorship, playing a pivotal role in the development of new graduate nurses and nursing students.</li>
+      </ul>
+         </p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h6>BC Children's Hospital Research Institute - Vaccine Evaluation Center</h6>
+      <p><i>Public Health Research Assistant (January 2015 - September 2019)</i></p>
+      <p>  <ul>
+        <li>● Ability to follow detailed protocol and abide by research ethics when enrolling eligible participants onto research studies.</li>
+        <li>● Screened people to determine whether they are eligible for research studies based on their current health status.</li>
+        <li>● Assisted with data collection and entry on study-related materials.</li>
+      </ul></p>
+    </div>
+  </div>
+  
 </section>
 
-              </body>
-              </html>
-
-              <br><div class="white-button" data-aos="fade-up">
+              <div class="white-button" data-aos="fade-up">
                 <a href="https://github.com/jnliou/jnliou/blob/main/CV/Julia%20Liou%C2%A0%20-%20Resume%20-%20Data%20Analytics.pdf" target="_blank" class="btn btn--primary full-width" download="">Download Resume</a>
             </div>
               
