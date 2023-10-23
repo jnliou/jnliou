@@ -27,6 +27,40 @@ https://templatemo.com/tm-531-reflux
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <style>ul.timeline-3 {
+      list-style-type: none;
+      position: relative;
+    }
+    ul.timeline-3:before {
+      content: " ";
+      background: #d4d9df;
+      display: inline-block;
+      position: absolute;
+      left: 10px;
+      width: 2px;
+      height: 100%;
+      z-index: 400;
+    }
+    ul.timeline-3 > li {
+      margin: 20px 0;
+      padding-left: 20px;
+    }
+    ul.timeline-3 > li:before {
+      content: " ";
+      background: white;
+      display: inline-block;
+      position: absolute;
+      border-radius: 50%;
+      border: 3px solid #a43f49;
+      left: 20px;
+      width: 20px;
+      height: 20px;
+      z-index: 400;
+    }
+    .contact-me .section-heading h2 {
+    text-align: center;
+  }
+    </style>
   </head>
 
   <body>
@@ -145,76 +179,83 @@ https://templatemo.com/tm-531-reflux
                           <li><b>Soft Skills:</b> Communication, Collaboration, Attention-to-Detail, Problem-Solving, Time Management, Leadership</li><br>
                       </ul>
                   </section>
-                  <section id="education">
-                    <h2>Education</h2>
-                    <div class="timeline">
-                      <div class="event">
-                        <div class="event-content">
-                          <h5>University of Toronto, Toronto, ON</h5>
-                          <strong>Certificate in Data Analytics Bootcamp</strong> (April 2023 - Oct 2023)
-                          <p>An intensive 24-week long bootcamp. Analytics with data from CSVs, API interactions, Web Scraping, and Google API using VBA, Python, SLQ, Javascript, R, and HTML/CSS.</p>
-                          <p class="skills-learned">Skills Learned:</p>
-                          <ul>
-                            <li>Data Manipulation & Visualization: Pandas, Matplotlib, Leaflet.js, Tableau</li>
-                            <li>Machine Learning: Hadoop, TensorFlow</li>
-                            <li>Database: SQL (PostgreSQL, SQLite), NoSQL (MongoDB)</li>
-                            <li>Other: GitHub, Google Colab, Flask, AWS, PySpark, Command Line</li>
-                          </ul>
-                        </div>
-                      </div>
-                  
-                      <div class="event">
-                        <div class="event-content">
-                          <h5>University of British Columbia, Vancouver, BC</h5>
-                          <strong>Bachelor of Science in Nursing</strong> (2018 - 2020)
-                          <p>During my 20-month BSN program at UBC, I undertook a rigorous curriculum that encompassed advanced nursing theory, clinical practice, and the latest healthcare technologies. Additionally, as the Communications Coordinator for the UBC Nursing Undergraduate Society, I served as a vital link between nursing students and faculty, demonstrating my leadership and communication skills. This role allowed me to facilitate effective collaboration, ensuring that student voices were heard and contributing to a more dynamic and engaging educational experience.</p>
-                          <strong>Bachelor of Science in Biology & minor in Nutritional Sciences</strong> (2012 - 2016)
-                          <p>During my time pursuing a BSc in Biology with a minor in Nutritional Sciences at the University of British Columbia (UBC), I immersed myself in diverse subjects, gaining in-depth knowledge in research methodologies, animal physiology, and nutritional science. As a Laboratory Volunteer and Directed Studies Student at the UBC Department of Zoology, I honed my research skills by conducting experiments, performing dissections, and maintaining precise records of data.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  
-                  <section id="work-experience">
-                    <h2>Work Experience</h2>
-                    <div class="timeline">
-                      <div class="event">
-                        <div class="event-content">
-                          <strong>North York General Hospital</strong>, Toronto, ON
-                          <p>Registered Nurse (November 2022 - Present)</p>
-                          <ul>
-                            <li>Provided patient-centered care and collaborated with interdisciplinary teams.</li>
-                            <li>Conducted assessments and created care plans using Cerner - CST.</li>
-                          </ul>
-                        </div>
-                      </div>
-                  
-                      <div class="event">
-                        <div class="event-content">
-                          <strong>BC Women’s Hospital</strong>, Vancouver, BC
-                          <p>Registered Nurse (September 2020 - September 2022)</p>
-                          <ul>
-                            <li>Provided comprehensive assessments to Postpartum mothers and their newborns.</li>
-                            <li>Planned, coordinated, and evaluated the care provided to Postpartum mothers and newborns in collaboration with the family, their health care provider, and the interdisciplinary team.</li>
-                            <li>Conducted assessments and created care plans using Cerner - CST.</li>
-                          </ul>
-                        </div>
-                      </div>
-                  
-                      <div class="event">
-                        <div class="event-content">
-                          <strong>BC Children's Hospital Research Institute - Vaccine Evaluation Center</strong>, Vancouver, BC
-                          <p>Public Health Research Assistant (January 2015 - September 2019)</p>
-                          <ul>
-                            <li>Ability to follow detailed protocol and abide by research ethics when enrolling eligible participants onto research studies.</li>
-                            <li>Screened people to determine whether they are eligible for research studies based on their current health status.</li>
-                            <li>Assisted with data collection and entry on study-related materials.</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-                  
+              <section id="education">
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h2 style="margin-left: 1.2rem;">Education</h2>
+      <ul class="timeline-3">
+        <li>
+          <h5 style="color: #CB2906;">April 2023 - October 2023</h5>
+          <h7 style = "color: #a43f49">University of Toronto - Certificate in Data Analytics and Data Visualizations Bootcamp</h7>
+          <p class="mt-2">An intensive 24-week long bootcamp. Analytics with data from CSVs, API interactions, Web Scraping, and Google API using VBA, Python, SLQ, Javascript, R, and HTML/CSS.</p>
+          <p class="skills-learned">Skills Learned:</p>
+          <ul>
+            <li><strong>Data Manipulation & Visualization:</strong> Pandas, Matplotlib, Leaflet.js, Tableau</li>
+            <li><strong>Machine Learning: </strong> Hadoop, TensorFlow</li>
+            <li><strong>Database: </strong>SQL (PostgreSQL, SQLite), NoSQL (MongoDB)</li>
+            <li><strong>Other:</strong> GitHub, Google Colab, Flask, AWS, PySpark, Command Line</li>
+          </ul>
+        </li>
+        <li>
+          <h5 style="color: #CB2906;">2018-2020</h5>
+          <h7 style = "color: #a43f49">University of British Columbia, Vancouver, BC -  Bachelor of Science in Nursing</h7>
+          <p class="mt-2">During my 20-month BSN program at UBC, I undertook a rigorous curriculum that encompassed advanced nursing theory, clinical practice, and the latest healthcare technologies. Additionally, as the Communications Coordinator for the UBC Nursing Undergraduate Society, I served as a vital link between nursing students and faculty, demonstrating my leadership and communication skills. This role allowed me to facilitate effective collaboration, ensuring that student voices were heard and contributing to a more dynamic and engaging educational experience.</p>
+        </li>
+        <li>
+          <h5 style="color: #CB2906;">2012-2016</h5>
+          <h7 style = "color: #a43f49">University of British Columbia, Vancouver, BC - Bachelor of Science in Biology & minor in Nutritional Sciences</h7>
+          <p class="mt-2">During my time pursuing a BSc in Biology with a minor in Nutritional Sciences at the University of British Columbia (UBC), I immersed myself in diverse subjects, gaining in-depth knowledge in research methodologies, animal physiology, and nutritional science. As a Laboratory Volunteer and Directed Studies Student at the UBC Department of Zoology, I honed my research skills by conducting experiments, performing dissections, and maintaining precise records of data.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<section id="work-experience">
+  <h2>Work Experience</h2>
+  <div class="timeline">
+    <div class="event">
+      <div class="event-content">
+        <strong>North York General Hospital</strong>, Toronto, ON
+        <p>Registered Nurse (November 2022 - Present)</p>
+        <ul>
+          <li>Provided patient-centered care and collaborated with interdisciplinary teams.</li>
+          <li>Conducted assessments and created care plans using Cerner - CST.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="event-content">
+        <strong>BC Women’s Hospital</strong>, Vancouver, BC
+        <p>Registered Nurse (September 2020 - September 2022)</p>
+        <ul>
+          <li>Provided comprehensive assessments to Postpartum mothers and their newborns.</li>
+          <li>Planned, coordinated, and evaluated the care provided to Postpartum mothers and newborns in collaboration with the family, their health care provider, and the interdisciplinary team.</li>
+          <li>Conducted assessments and created care plans using Cerner - CST.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="event-content">
+        <strong>BC Children's Hospital Research Institute - Vaccine Evaluation Center</strong>, Vancouver, BC
+        <p>Public Health Research Assistant (January 2015 - September 2019)</p>
+        <ul>
+          <li>Ability to follow detailed protocol and abide by research ethics when enrolling eligible participants onto research studies.</li>
+          <li>Screened people to determine whether they are eligible for research studies based on their current health status.</li>
+          <li>Assisted with data collection and entry on study-related materials.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
               </body>
               </html>
 
@@ -378,19 +419,24 @@ https://templatemo.com/tm-531-reflux
           </div>
           
 
-      <section class="section contact-me" data-section="section4">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Contact Me</h2>
-            <div class="line-dec"></div>
-            <span
-              >Please do not hesitate to get in touch with me if you are interested in collaborating on projects, have inquiries, or wish to discuss potential job opportunities. I welcome the opportunity to connect and engage in meaningful discussions.</span
-            ><br>
-
-            <br><div class="white-button" data-aos="fade-up"><a href="mailto:julialiou@alumni.ubc.ca" target="_blank">E-mail: julialiou@alumni.ubc.ca </a></div><br>
+          <section class="section contact-me text-center" data-section="section4">
+            <div class="container">
+              <div class="section-heading">
+                <h2>Contact Me</h2>
+                <div class="line-dec"></div>
+                <span>
+                  Please do not hesitate to get in touch with me if you are interested in collaborating on projects, have inquiries, or wish to discuss potential job opportunities. I welcome the opportunity to connect and engage in meaningful discussions.
+                </span>
+                <br>
           
-          <div class="white-button" data-aos="fade-up"><a href="https://www.linkedin.com/in/julia-liou/" target="_blank">LinkedIn</a></div>
-          </div>
+                <br>
+                <div class="white-button" data-aos="fade-up"><a href="mailto:julialiou@alumni.ubc.ca" target="_blank">E-mail: julialiou@alumni.ubc.ca </a></div><br>
+          
+                <div class="white-button" data-aos="fade-up"><a href="https://www.linkedin.com/in/julia-liou/" target="_blank">LinkedIn</a></div>
+              </div>
+            </div>
+          </section>
+          
 
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->
