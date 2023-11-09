@@ -400,7 +400,7 @@ button:hover {
 .service-item {
     margin-bottom: 10px;
     padding: 50px;
-    background-color: #1f2c6c;
+    background-color: #a43f49;
     transition: all 0.5s;
 }
 
@@ -413,7 +413,7 @@ button:hover {
 }
 
 .service-item:hover {
-    background-color: #b636ff;
+    background-color: #A72004;
 }
 
 .service-item:hover h4 {
